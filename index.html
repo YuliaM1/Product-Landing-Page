@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <title>CoYS. Шифоновое платье</title>
+      <meta chartset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="styles.css" />
+   </head>
+   <body>
+      <header id="header">
+         <img src="img/coys.png" id="header-img" />
+         <nav id="nav-bar" class="nav-bar">
+            <ul>
+               <li><a href="#features" class="nav-link">Характеристики</a></li>
+               <li><a href="#buy" class="nav-link">Купить</a></li>
+               <li><a href="#newsletter" class="nav-link">Рассылка</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main>
+         <h1>Легкое шифоновое платье</h1>
+         <section id="features" class="features-section">
+            <div class="video">
+               <video id="video" poster="img/preview.png" controls>
+                  <source src="img/dress.mp4" type="video/mp4" />
+               </video>
+            </div>
+            <div class="tile feature">
+               <img src="img/delivery-truck.png" />
+               <div class="header">Быстрая доставка</div>
+               <div class="description">2-3 дня</div>
+            </div>
+            <div class="tile feature">
+               <img src="img/woman-clothes.png" />
+               <div class="header">Воздушная ткань</div>
+               <div class="description">Шифон</div>
+            </div>
+            <div class="tile feature">
+               <img src="img/clothes-hanger.png" />
+               <div class="header">Подойдет каждой</div>
+               <div class="description">Размеры от 42 до 56</div>
+            </div>
+            <div class="tile feature">
+               <img src="img/pantone.png" />
+               <div class="header">Разнообразные цвета</div>
+               <div class="description">Четыре расцветки</div>
+            </div>
+         </section>
+         <section id="buy" class="buy-section">
+            <h2>Расцветки</h2>
+            <div class="grid">
+               <div class="tile color">
+                  <div class="header">Фиолетовый цвет</div>
+                  <img src="img/purple-dress.jpg" />
+                  <div class="price">1 823 ₽</div>
+                  <button>Купить</button>
+               </div>
+               <div class="tile color">
+                  <div class="header">Зеленый цвет</div>
+                  <img src="img/green-dress.jpg" />
+                  <div class="price">1 766 ₽</div>
+                  <button>Купить</button>
+               </div>
+               <div class="tile color">
+                  <div class="header">Синий цвет</div>
+                  <img src="img/blue-dress.jpg" />
+                  <div class="price">1 823 ₽</div>
+                  <button>Купить</button>
+               </div>
+               <div class="tile color">
+                  <div class="header">Бежевый цвет</div>
+                  <img src="img/beige-dress.jpg" />
+                  <div class="price">2 564 ₽</div>
+                  <button>Купить</button>
+               </div>
+            </div>
+         </section>
+         <section id="newsletter" class="form-section">
+            <h2>Стильная одежда на каждый день</h2>
+            <form
+               id="form"
+               method="post"
+               action="https://www.freecodecamp.com/email-submit"
+            >
+               <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Ваш e-mail"
+                  required
+               />
+               <input type="submit" id="submit" value="Подписаться" />
+            </form>
+         </section>
+      </main>
+      <footer>
+         <nav class="nav-bar">
+            <ul>
+               <li><a href="#">О нас</a></li>
+               <li><a href="#">Реквизиты</a></li>
+               <li><a href="#">Контакты</a></li>
+            </ul>
+         </nav>
+         <div class="copyright">© CoYS</div>
+      </footer>
+   </body>
+</html>
