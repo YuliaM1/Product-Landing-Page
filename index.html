@@ -7,9 +7,9 @@
       <link rel="stylesheet" href="styles.css" />
    </head>
    <body>
-      <header id="header">
-         <img src="img/coys.png" id="header-img" />
-         <nav id="nav-bar" class="nav-bar">
+      <header>
+         <img src="img/coys.png" />
+         <nav class="nav-bar">
             <ul>
                <li><a href="#features" class="nav-link">Характеристики</a></li>
                <li><a href="#buy" class="nav-link">Купить</a></li>
@@ -21,7 +21,7 @@
          <h1>Легкое шифоновое платье</h1>
          <section id="features" class="features-section">
             <div class="video">
-               <video id="video" poster="img/preview.png" controls>
+               <video poster="img/preview.png" controls>
                   <source src="img/dress.mp4" type="video/mp4" />
                </video>
             </div>
@@ -78,18 +78,16 @@
          <section id="newsletter" class="form-section">
             <h2>Стильная одежда на каждый день</h2>
             <form
-               id="form"
                method="post"
                action="https://www.freecodecamp.com/email-submit"
             >
                <input
                   type="email"
-                  id="email"
                   name="email"
                   placeholder="Ваш e-mail"
                   required
                />
-               <input type="submit" id="submit" value="Подписаться" />
+               <input type="submit" value="Подписаться" />
             </form>
          </section>
       </main>
